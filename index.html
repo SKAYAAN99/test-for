@@ -1,0 +1,2036 @@
+<!-- ════════════════════════════════════════════════
+     SECTION 1 — HERO
+════════════════════════════════════════════════════ -->
+<section class="hero-section" id="hero" aria-labelledby="heroHeading">
+  <!-- Animated canvas background -->
+  <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient orbs -->
+  <div class="hero-orb hero-orb--purple" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb--blue" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb--violet" aria-hidden="true"></div>
+
+  <!-- Grid overlay -->
+  <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+  <div class="hero-container">
+
+    <!-- Left: Content -->
+    <div class="hero-content" data-reveal="fade-up">
+      <div class="hero-live-badge">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>Now Serving Across Mumbai &amp; Pune</span>
+      </div>
+
+      <h1 class="hero-headline" id="heroHeading">
+        Your Appliances,<br>
+        <span class="text-gradient-animated">Perfectly Restored.</span>
+      </h1>
+
+      <p class="hero-subheadline">
+        Expert repair for ACs, refrigerators, washing machines &amp; more.
+        Certified technicians at your door in under 2 hours.
+        90-day service guarantee on every job.
+      </p>
+
+      <!-- Stats strip -->
+      <div class="hero-stats-strip" role="list">
+        <div class="hero-stat" role="listitem">
+          <span class="stat-value" data-count="10000">10K+</span>
+          <span class="stat-label">Repairs Completed</span>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <span class="stat-value">4.9<span class="stat-star">★</span></span>
+          <span class="stat-label">Average Rating</span>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <span class="stat-value">2hr</span>
+          <span class="stat-label">Response Time</span>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat" role="listitem">
+          <span class="stat-value">90</span>
+          <span class="stat-label">Day Warranty</span>
+        </div>
+      </div>
+
+      <!-- CTAs -->
+      <div class="hero-cta-group">
+        <a href="#book" class="btn-hero-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book a Repair
+        </a>
+        <a href="#diagnose" class="btn-hero-secondary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Diagnose Issue
+        </a>
+        <a href="tel:+919876543210" class="btn-hero-call">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.25 1.19 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Now
+        </a>
+      </div>
+
+      <!-- Trust strip -->
+      <div class="hero-trust-strip">
+        <span>✓ Free Diagnosis</span>
+        <span>✓ Genuine Parts</span>
+        <span>✓ Verified Technicians</span>
+        <span>✓ No Hidden Charges</span>
+      </div>
+    </div>
+
+    <!-- Right: Visual Dashboard -->
+    <div class="hero-visual" data-reveal="fade-left" aria-hidden="true">
+      <!-- Central orb -->
+      <div class="hero-orb-core">
+        <div class="orb-inner-ring orb-ring-1"></div>
+        <div class="orb-inner-ring orb-ring-2"></div>
+        <div class="orb-inner-ring orb-ring-3"></div>
+        <div class="orb-center-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <path d="M24 8v32M8 24h32M12.7 12.7l22.6 22.6M35.3 12.7L12.7 35.3" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="5" fill="white"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Floating notification cards -->
+      <div class="float-card float-card--tl float-card--success">
+        <div class="fcard-icon-wrap fcard-success">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20,6 9,17 4,12"/></svg>
+        </div>
+        <div class="fcard-text">
+          <strong>AC Repaired ✓</strong>
+          <small>Completed 2 min ago</small>
+        </div>
+      </div>
+
+      <div class="float-card float-card--tr float-card--active">
+        <div class="fcard-icon-wrap fcard-live">
+          <span class="fcard-live-dot"></span>
+        </div>
+        <div class="fcard-text">
+          <strong>Technician En Route</strong>
+          <small>Arrives in ~12 min</small>
+        </div>
+      </div>
+
+      <div class="float-card float-card--bl float-card--rating">
+        <div class="fcard-stars">★★★★★</div>
+        <div class="fcard-text">
+          <strong>5-Star Review</strong>
+          <small>Rahul M. — AC Service</small>
+        </div>
+      </div>
+
+      <div class="float-card float-card--br float-card--booking">
+        <div class="fcard-icon-wrap fcard-booked">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+        </div>
+        <div class="fcard-text">
+          <strong>New Booking</strong>
+          <small>#CC-2024-4892</small>
+        </div>
+      </div>
+
+      <!-- Service icons orbiting -->
+      <div class="orbit-icon orbit-icon--1">❄️</div>
+      <div class="orbit-icon orbit-icon--2">🧊</div>
+      <div class="orbit-icon orbit-icon--3">🌀</div>
+      <div class="orbit-icon orbit-icon--4">⚡</div>
+    </div>
+
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="hero-scroll-cue" aria-hidden="true">
+    <div class="scroll-cue-line"></div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 2 — SERVICES
+════════════════════════════════════════════════════ -->
+<section class="site-section services-section" id="services" aria-labelledby="servicesHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">What We Fix</span>
+      <h2 class="section-title" id="servicesHeading">Expert Repair for <span class="text-gradient">Every Appliance</span></h2>
+      <p class="section-subtitle">Factory-trained technicians, genuine OEM spare parts, and a service guarantee on every single job we complete.</p>
+    </header>
+
+    <div class="services-grid" role="list">
+
+      <!-- AC -->
+      <article class="service-card" role="listitem" data-service="ac" data-reveal="fade-up" data-delay="0">
+        <div class="service-card-glow service-card-glow--purple" aria-hidden="true"></div>
+        <div class="service-card-shine" aria-hidden="true"></div>
+        <div class="service-icon-container service-icon--purple">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="6" y="14" width="52" height="26" rx="5" stroke="currentColor" stroke-width="2"/>
+            <rect x="10" y="18" width="44" height="10" rx="2" fill="currentColor" opacity="0.15"/>
+            <line x1="10" y1="32" x2="54" y2="32" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 3"/>
+            <path d="M16 40v10M48 40v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="11" y1="48" x2="21" y2="48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="43" y1="48" x2="53" y2="48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="48" cy="23" r="3.5" fill="currentColor" opacity="0.7"/>
+            <path d="M42 23h-4M36 23l2-2M36 23l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Air Conditioner Repair</h3>
+          <p class="service-desc">Gas refill, compressor overhaul, PCB diagnostics, coil cleaning and full annual servicing for split, window and cassette units.</p>
+          <ul class="service-feature-list" aria-label="Service features">
+            <li>All makes &amp; models covered</li>
+            <li>Same-day emergency slots</li>
+            <li>90-day repair warranty</li>
+            <li>Inverter AC specialist</li>
+          </ul>
+        </div>
+        <div class="service-card-footer">
+          <div class="service-price-hint">Starting ₹299</div>
+          <a href="#book" class="service-book-btn" data-prefill-service="Air Conditioner">
+            Book Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Refrigerator -->
+      <article class="service-card" role="listitem" data-service="fridge" data-reveal="fade-up" data-delay="100">
+        <div class="service-card-glow service-card-glow--blue" aria-hidden="true"></div>
+        <div class="service-card-shine" aria-hidden="true"></div>
+        <div class="service-icon-container service-icon--blue">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="12" y="4" width="40" height="56" rx="5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12" y1="26" x2="52" y2="26" stroke="currentColor" stroke-width="2"/>
+            <circle cx="47" cy="15" r="2.5" fill="currentColor" opacity="0.8"/>
+            <circle cx="47" cy="40" r="2.5" fill="currentColor" opacity="0.8"/>
+            <line x1="20" y1="13" x2="20" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="26" y1="11" x2="26" y2="23" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="32" y1="13" x2="32" y2="21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="20" y1="34" x2="20" y2="50" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="26" y1="34" x2="26" y2="50" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Refrigerator Repair</h3>
+          <p class="service-desc">Cooling failure, water leakage, excessive noise, thermostat fault and compressor replacement for single door, double door and side-by-side models.</p>
+          <ul class="service-feature-list" aria-label="Service features">
+            <li>All door configurations</li>
+            <li>Inverter compressors</li>
+            <li>90-day repair warranty</li>
+            <li>Frost-free specialist</li>
+          </ul>
+        </div>
+        <div class="service-card-footer">
+          <div class="service-price-hint">Starting ₹399</div>
+          <a href="#book" class="service-book-btn service-book-btn--blue" data-prefill-service="Refrigerator">
+            Book Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Washing Machine -->
+      <article class="service-card" role="listitem" data-service="washer" data-reveal="fade-up" data-delay="200">
+        <div class="service-card-glow service-card-glow--purple" aria-hidden="true"></div>
+        <div class="service-card-shine" aria-hidden="true"></div>
+        <div class="service-icon-container service-icon--purple">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="6" y="4" width="52" height="56" rx="5" stroke="currentColor" stroke-width="2"/>
+            <rect x="10" y="8" width="44" height="16" rx="2" fill="currentColor" opacity="0.12"/>
+            <circle cx="32" cy="42" r="13" stroke="currentColor" stroke-width="2"/>
+            <circle cx="32" cy="42" r="8" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <circle cx="19" cy="15" r="2.5" fill="currentColor" opacity="0.8"/>
+            <circle cx="27" cy="15" r="2.5" fill="currentColor" opacity="0.8"/>
+            <rect x="33" y="11" width="18" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="37" cy="15" r="1.5" fill="currentColor" opacity="0.5"/>
+            <circle cx="44" cy="15" r="1.5" fill="currentColor" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Washing Machine Repair</h3>
+          <p class="service-desc">Not spinning, water drainage issues, drum bearing failure, PCB faults and motor brush replacement for front-load and top-load models.</p>
+          <ul class="service-feature-list" aria-label="Service features">
+            <li>Front &amp; top load models</li>
+            <li>Fully &amp; semi-automatic</li>
+            <li>90-day repair warranty</li>
+            <li>PCB specialist on call</li>
+          </ul>
+        </div>
+        <div class="service-card-footer">
+          <div class="service-price-hint">Starting ₹349</div>
+          <a href="#book" class="service-book-btn" data-prefill-service="Washing Machine">
+            Book Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Water Cooler -->
+      <article class="service-card" role="listitem" data-service="cooler" data-reveal="fade-up" data-delay="300">
+        <div class="service-card-glow service-card-glow--blue" aria-hidden="true"></div>
+        <div class="service-card-shine" aria-hidden="true"></div>
+        <div class="service-icon-container service-icon--blue">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="14" y="6" width="36" height="42" rx="5" stroke="currentColor" stroke-width="2"/>
+            <path d="M22 48l-5 12h30l-5-12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="32" cy="28" r="11" stroke="currentColor" stroke-width="2"/>
+            <path d="M32 20c-5 5-5 11 0 16 5-5 5-11 0-16z" fill="currentColor" opacity="0.3"/>
+            <circle cx="24" cy="12" r="2" fill="currentColor" opacity="0.7"/>
+            <circle cx="32" cy="10" r="2" fill="currentColor" opacity="0.7"/>
+            <circle cx="40" cy="12" r="2" fill="currentColor" opacity="0.7"/>
+            <rect x="26" y="43" width="12" height="4" rx="2" fill="currentColor" opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Water Cooler Repair</h3>
+          <p class="service-desc">Not cooling, water leakage, pump failures, thermostat issues and full sanitisation. Bottled and direct-pipeline cooler models serviced.</p>
+          <ul class="service-feature-list" aria-label="Service features">
+            <li>All capacities &amp; brands</li>
+            <li>Bottled &amp; direct-line</li>
+            <li>90-day repair warranty</li>
+            <li>Deep sanitisation included</li>
+          </ul>
+        </div>
+        <div class="service-card-footer">
+          <div class="service-price-hint">Starting ₹249</div>
+          <a href="#book" class="service-book-btn service-book-btn--blue" data-prefill-service="Water Cooler">
+            Book Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Microwave -->
+      <article class="service-card service-card--featured" role="listitem" data-service="microwave" data-reveal="fade-up" data-delay="400">
+        <div class="service-card-glow service-card-glow--mixed" aria-hidden="true"></div>
+        <div class="service-card-shine" aria-hidden="true"></div>
+        <span class="service-badge">Popular</span>
+        <div class="service-icon-container service-icon--mixed">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="40" height="40" aria-hidden="true">
+            <rect x="4" y="12" width="56" height="40" rx="5" stroke="currentColor" stroke-width="2"/>
+            <rect x="8" y="16" width="38" height="32" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="56" cy="28" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="53" y1="20" x2="59" y2="20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="56" cy="40" r="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M22 32 q10-9 20 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <path d="M18 28 q14-12 28 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4"/>
+            <ellipse cx="32" cy="33" rx="6" ry="3.5" fill="currentColor" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="service-card-body">
+          <h3 class="service-title">Microwave Repair</h3>
+          <p class="service-desc">Not heating, turntable failure, door latch issues, magnetron replacement and full control panel diagnostics for solo, grill and convection models.</p>
+          <ul class="service-feature-list" aria-label="Service features">
+            <li>Solo, grill &amp; convection</li>
+            <li>OTG models supported</li>
+            <li>90-day repair warranty</li>
+            <li>Magnetron specialist</li>
+          </ul>
+        </div>
+        <div class="service-card-footer">
+          <div class="service-price-hint">Starting ₹299</div>
+          <a href="#book" class="service-book-btn service-book-btn--gradient" data-prefill-service="Microwave">
+            Book Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Services bottom CTA -->
+    <div class="services-cta-row" data-reveal="fade-up">
+      <p>Not sure which service you need?</p>
+      <a href="#diagnose" class="btn-outline-sm">Use Our Free Diagnostic Tool</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 3 — WHY CHOOSE US
+════════════════════════════════════════════════════ -->
+<section class="site-section why-section" id="why-us" aria-labelledby="whyHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Why Choose Us</span>
+      <h2 class="section-title" id="whyHeading">Built Around <span class="text-gradient">Your Trust</span></h2>
+      <p class="section-subtitle">Every decision we make is designed to give you peace of mind, from the moment you book to the day your warranty expires.</p>
+    </header>
+
+    <div class="why-grid">
+
+      <div class="why-card why-card--purple" data-reveal="fade-up" data-delay="0">
+        <div class="why-icon-wrap why-icon--purple">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+        </div>
+        <h3>Fast Response</h3>
+        <p>Technician dispatched within 2 hours of booking. Priority emergency slots available same day, 7 days a week including public holidays.</p>
+        <div class="why-metric">
+          <span class="why-metric-value">~2hr</span>
+          <span class="why-metric-label">Average dispatch time</span>
+        </div>
+      </div>
+
+      <div class="why-card why-card--blue" data-reveal="fade-up" data-delay="100">
+        <div class="why-icon-wrap why-icon--blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Expert Technicians</h3>
+        <p>Every engineer holds a valid service certification and has 5+ years of hands-on experience. Background-verified, insured, and professionally trained.</p>
+        <div class="why-metric">
+          <span class="why-metric-value">500+</span>
+          <span class="why-metric-label">Certified engineers</span>
+        </div>
+      </div>
+
+      <div class="why-card why-card--purple" data-reveal="fade-up" data-delay="200">
+        <div class="why-icon-wrap why-icon--purple">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <h3>Transparent Pricing</h3>
+        <p>Full itemised quote — parts and labour — shared before any work begins. Zero hidden charges. Zero surprises on your invoice. What we quote is what you pay.</p>
+        <div class="why-metric">
+          <span class="why-metric-value">₹0</span>
+          <span class="why-metric-label">Hidden charges</span>
+        </div>
+      </div>
+
+      <div class="why-card why-card--blue" data-reveal="fade-up" data-delay="300">
+        <div class="why-icon-wrap why-icon--blue">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+        </div>
+        <h3>Trusted &amp; Guaranteed</h3>
+        <p>Over 10,000 successful repairs completed. Rated 4.9 stars by real customers. Every repair backed by our industry-leading 90-day service warranty.</p>
+        <div class="why-metric">
+          <span class="why-metric-value">4.9★</span>
+          <span class="why-metric-label">Customer satisfaction</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Secondary trust row -->
+    <div class="trust-badge-row" data-reveal="fade-up">
+      <div class="trust-pill">🔒 Data Protected</div>
+      <div class="trust-pill">✅ ID Verified Techs</div>
+      <div class="trust-pill">🛡️ Insured Service</div>
+      <div class="trust-pill">💳 Pay After Service</div>
+      <div class="trust-pill">📱 Real-Time Tracking</div>
+      <div class="trust-pill">⭐ 90-Day Guarantee</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 4 — OFFERS
+════════════════════════════════════════════════════ -->
+<section class="site-section offers-section" id="offers" aria-labelledby="offersHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Deals &amp; Offers</span>
+      <h2 class="section-title" id="offersHeading">Repair More, <span class="text-gradient">Save More</span></h2>
+      <p class="section-subtitle">Exclusive deals designed to make premium appliance repair accessible to every household. Book today and lock in your savings instantly.</p>
+    </header>
+
+    <div class="offers-grid">
+
+      <div class="offer-card offer-card--festival" data-reveal="fade-up" data-delay="0">
+        <div class="offer-ambient-glow offer-ambient--purple" aria-hidden="true"></div>
+        <div class="offer-top">
+          <span class="offer-badge offer-badge--hot">🔥 Limited Time</span>
+          <div class="offer-countdown" data-ends="2024-12-31">
+            <span class="cd-label">Ends in:</span>
+            <span class="cd-timer" id="festivalTimer">12d 08h 34m</span>
+          </div>
+        </div>
+        <div class="offer-emoji-icon">🎉</div>
+        <h3 class="offer-title">Festival Special</h3>
+        <div class="offer-discount-badge">30% OFF</div>
+        <p class="offer-desc">Celebrate the season with massive savings on all AC and refrigerator repairs. Valid across all service types this month only.</p>
+        <ul class="offer-conditions">
+          <li>✓ All appliances included</li>
+          <li>✓ Valid till end of month</li>
+          <li>✓ No minimum order value</li>
+        </ul>
+        <div class="offer-coupon-row">
+          <span class="offer-coupon-label">Use code:</span>
+          <button class="offer-coupon-chip" data-coupon="FESTIVAL30" aria-label="Copy coupon code FESTIVAL30">FESTIVAL30 <span>📋</span></button>
+        </div>
+        <a href="#book" class="offer-cta-btn offer-cta--purple">Claim This Offer →</a>
+      </div>
+
+      <div class="offer-card offer-card--first" data-reveal="fade-up" data-delay="150">
+        <div class="offer-ambient-glow offer-ambient--blue" aria-hidden="true"></div>
+        <div class="offer-top">
+          <span class="offer-badge offer-badge--new">🚀 New Customer</span>
+        </div>
+        <div class="offer-emoji-icon">👋</div>
+        <h3 class="offer-title">First Booking Offer</h3>
+        <div class="offer-discount-badge offer-discount--blue">₹200 OFF</div>
+        <p class="offer-desc">Welcome to CoolComfort. Your first repair, our treat — partially. Flat ₹200 off on any service with zero minimum booking requirement.</p>
+        <ul class="offer-conditions">
+          <li>✓ First booking only</li>
+          <li>✓ No minimum order value</li>
+          <li>✓ Applies automatically</li>
+        </ul>
+        <div class="offer-coupon-row">
+          <span class="offer-coupon-label">Use code:</span>
+          <button class="offer-coupon-chip offer-coupon--blue" data-coupon="WELCOME200" aria-label="Copy coupon code WELCOME200">WELCOME200 <span>📋</span></button>
+        </div>
+        <a href="#book" class="offer-cta-btn offer-cta--blue">Book &amp; Save ₹200 →</a>
+      </div>
+
+      <div class="offer-card offer-card--seasonal" data-reveal="fade-up" data-delay="300">
+        <div class="offer-ambient-glow offer-ambient--teal" aria-hidden="true"></div>
+        <div class="offer-top">
+          <span class="offer-badge offer-badge--seasonal">❄️ Seasonal Pack</span>
+        </div>
+        <div class="offer-emoji-icon">☀️</div>
+        <h3 class="offer-title">Summer AC Package</h3>
+        <div class="offer-discount-badge offer-discount--teal">₹499 FLAT</div>
+        <p class="offer-desc">Beat the heat with our all-inclusive summer AC package — gas top-up, filter cleaning, coil wash and full health check — one flat price.</p>
+        <ul class="offer-conditions">
+          <li>✓ Split &amp; window units</li>
+          <li>✓ Includes gas top-up</li>
+          <li>✓ Valid June &amp; July only</li>
+        </ul>
+        <div class="offer-what-included">
+          <strong>Package includes:</strong>
+          <span>Gas Refill · Filter Clean · Coil Wash · PCB Check</span>
+        </div>
+        <a href="#book" class="offer-cta-btn offer-cta--teal">Get This Package →</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 5 — INTERACTIVE DIAGNOSTIC
+════════════════════════════════════════════════════ -->
+<section class="site-section diagnose-section" id="diagnose" aria-labelledby="diagnoseHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Smart Diagnostics</span>
+      <h2 class="section-title" id="diagnoseHeading">What's <span class="text-gradient">Going Wrong?</span></h2>
+      <p class="section-subtitle">Select your appliance and describe the symptom. Our system will explain the likely cause and what our technician will fix — for free, before you book.</p>
+    </header>
+
+    <div class="diag-wrapper glass-panel" data-reveal="fade-up">
+
+      <!-- Appliance selector -->
+      <div class="diag-step diag-step--appliance">
+        <div class="diag-step-label">
+          <span class="diag-step-num">01</span>
+          <span>Select your appliance</span>
+        </div>
+        <div class="diag-appliance-tabs" id="diagApplianceTabs" role="tablist" aria-label="Select appliance">
+          <button class="diag-app-tab active" role="tab" aria-selected="true" data-app="ac" id="tab-ac" aria-controls="diagResult">
+            <span class="tab-icon" aria-hidden="true">❄️</span>
+            <span>AC Unit</span>
+          </button>
+          <button class="diag-app-tab" role="tab" aria-selected="false" data-app="fridge" id="tab-fridge" aria-controls="diagResult">
+            <span class="tab-icon" aria-hidden="true">🧊</span>
+            <span>Refrigerator</span>
+          </button>
+          <button class="diag-app-tab" role="tab" aria-selected="false" data-app="washer" id="tab-washer" aria-controls="diagResult">
+            <span class="tab-icon" aria-hidden="true">🌀</span>
+            <span>Washing Machine</span>
+          </button>
+          <button class="diag-app-tab" role="tab" aria-selected="false" data-app="cooler" id="tab-cooler" aria-controls="diagResult">
+            <span class="tab-icon" aria-hidden="true">💧</span>
+            <span>Water Cooler</span>
+          </button>
+          <button class="diag-app-tab" role="tab" aria-selected="false" data-app="microwave" id="tab-microwave" aria-controls="diagResult">
+            <span class="tab-icon" aria-hidden="true">⚡</span>
+            <span>Microwave</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Symptom selector -->
+      <div class="diag-step diag-step--symptom">
+        <div class="diag-step-label">
+          <span class="diag-step-num">02</span>
+          <span>Choose the symptom you're experiencing</span>
+        </div>
+        <div class="diag-symptom-grid" id="diagSymptomGrid" role="group" aria-label="Select symptom">
+          <button class="diag-symptom-btn active" data-sym="not-cooling">
+            <span class="symptom-icon" aria-hidden="true">🌡️</span>
+            <span class="symptom-label">Not Cooling</span>
+            <span class="symptom-sub">No cold air / water</span>
+          </button>
+          <button class="diag-symptom-btn" data-sym="leaking">
+            <span class="symptom-icon" aria-hidden="true">💧</span>
+            <span class="symptom-label">Water Leakage</span>
+            <span class="symptom-sub">Dripping or pooling</span>
+          </button>
+          <button class="diag-symptom-btn" data-sym="noise">
+            <span class="symptom-icon" aria-hidden="true">🔊</span>
+            <span class="symptom-label">Strange Noise</span>
+            <span class="symptom-sub">Grinding, rattling, humming</span>
+          </button>
+          <button class="diag-symptom-btn" data-sym="not-starting">
+            <span class="symptom-icon" aria-hidden="true">⚡</span>
+            <span class="symptom-label">Not Starting</span>
+            <span class="symptom-sub">Completely dead</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Result panel -->
+      <div class="diag-result-panel" id="diagResult" role="region" aria-live="polite" aria-label="Diagnostic result">
+        <!-- Injected by script.js -->
+      </div>
+
+      <!-- Diag footer -->
+      <div class="diag-action-row">
+        <a href="#book" class="btn-neon-full-w">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+          Book a Technician Now
+        </a>
+        <p class="diag-disclaimer">
+          ⓘ For educational guidance only. Our certified technician performs the actual on-site diagnosis and will provide an exact assessment and quote before any work begins.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 6 — SMART BOOKING FORM
+════════════════════════════════════════════════════ -->
+<section class="site-section booking-section" id="book" aria-labelledby="bookingHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Book a Service</span>
+      <h2 class="section-title" id="bookingHeading">Schedule Your <span class="text-gradient">Repair</span></h2>
+      <p class="section-subtitle">Fill in your details below and we'll confirm your appointment with an SMS within 30 minutes. No advance payment required.</p>
+    </header>
+
+    <div class="booking-layout">
+
+      <!-- Main Form -->
+      <div class="booking-form-container glass-panel" data-reveal="fade-up">
+        <form
+          class="booking-form"
+          id="bookingForm"
+          novalidate
+          data-firebase-collection="bookings"
+          data-firebase-action="create-booking"
+          autocomplete="on"
+        >
+
+          <!-- Progress indicators -->
+          <div class="form-progress" aria-hidden="true">
+            <div class="form-progress-step active" data-step="1">
+              <span class="fps-num">1</span>
+              <span class="fps-label">Your Details</span>
+            </div>
+            <div class="form-progress-line"></div>
+            <div class="form-progress-step" data-step="2">
+              <span class="fps-num">2</span>
+              <span class="fps-label">Appliance</span>
+            </div>
+            <div class="form-progress-line"></div>
+            <div class="form-progress-step" data-step="3">
+              <span class="fps-num">3</span>
+              <span class="fps-label">Schedule</span>
+            </div>
+          </div>
+
+          <!-- ── Step 1: Personal Details ── -->
+          <fieldset class="form-fieldset" id="formStep1">
+            <legend class="form-legend">
+              <span class="legend-num">01</span>
+              Personal Information
+            </legend>
+
+            <div class="form-row-2">
+              <div class="form-field" data-field="fullName">
+                <label class="form-label" for="fullName">
+                  Full Name <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    class="form-input"
+                    placeholder="e.g. Priya Sharma"
+                    required
+                    autocomplete="name"
+                    data-firebase-field="customerName"
+                  />
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field" data-field="phone">
+                <label class="form-label" for="phoneNumber">
+                  Phone Number <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a2 2 0 012-2.18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.91 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                  <span class="input-prefix">+91</span>
+                  <input
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    class="form-input form-input--prefix"
+                    placeholder="98765 43210"
+                    required
+                    autocomplete="tel"
+                    pattern="[0-9]{10}"
+                    maxlength="10"
+                    inputmode="numeric"
+                    data-firebase-field="phone"
+                  />
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-field" data-field="address">
+              <label class="form-label" for="address">
+                Full Address <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <div class="input-wrap">
+                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <input
+                  type="text"
+                  id="address"
+                  name="address"
+                  class="form-input"
+                  placeholder="Flat no., Building name, Street, City, PIN"
+                  required
+                  autocomplete="street-address"
+                  data-firebase-field="address"
+                />
+              </div>
+              <span class="form-error" role="alert" aria-live="polite"></span>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-field" data-field="city">
+                <label class="form-label" for="city">City</label>
+                <div class="input-wrap">
+                  <select id="city" name="city" class="form-select" data-firebase-field="city">
+                    <option value="">Select city</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Thane</option>
+                    <option>Navi Mumbai</option>
+                    <option>Nashik</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field" data-field="pincode">
+                <label class="form-label" for="pincode">PIN Code</label>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    id="pincode"
+                    name="pincode"
+                    class="form-input"
+                    placeholder="400001"
+                    maxlength="6"
+                    inputmode="numeric"
+                    pattern="[0-9]{6}"
+                    data-firebase-field="pincode"
+                  />
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- ── Step 2: Appliance Details ── -->
+          <fieldset class="form-fieldset" id="formStep2">
+            <legend class="form-legend">
+              <span class="legend-num">02</span>
+              Appliance &amp; Issue Details
+            </legend>
+
+            <div class="form-row-2">
+              <div class="form-field" data-field="applianceType">
+                <label class="form-label" for="applianceType">
+                  Appliance Type <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <select id="applianceType" name="applianceType" class="form-select" required data-firebase-field="applianceType">
+                    <option value="">Select appliance</option>
+                    <option value="ac">Air Conditioner</option>
+                    <option value="fridge">Refrigerator</option>
+                    <option value="washer">Washing Machine</option>
+                    <option value="cooler">Water Cooler</option>
+                    <option value="microwave">Microwave</option>
+                  </select>
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field" data-field="applianceBrand">
+                <label class="form-label" for="applianceBrand">Brand / Make</label>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    id="applianceBrand"
+                    name="applianceBrand"
+                    class="form-input"
+                    placeholder="e.g. Samsung, LG, Daikin"
+                    data-firebase-field="brand"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-field" data-field="serviceType">
+                <label class="form-label" for="serviceType">
+                  Service Type <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <select id="serviceType" name="serviceType" class="form-select" required data-firebase-field="serviceType">
+                    <option value="">Select service</option>
+                    <option value="repair">Repair</option>
+                    <option value="amc">Annual Maintenance (AMC)</option>
+                    <option value="install">Installation / Uninstallation</option>
+                    <option value="clean">Deep Cleaning &amp; Servicing</option>
+                    <option value="gas">Gas Refill / Top-Up</option>
+                    <option value="inspection">Inspection &amp; Health Check</option>
+                  </select>
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field" data-field="issueCategory">
+                <label class="form-label" for="issueCategory">Issue Category</label>
+                <div class="input-wrap">
+                  <select id="issueCategory" name="issueCategory" class="form-select" data-firebase-field="issueCategory">
+                    <option value="">Select issue type</option>
+                    <option value="not-cooling">Not Cooling / Heating</option>
+                    <option value="leaking">Water Leakage</option>
+                    <option value="noise">Strange Noise / Vibration</option>
+                    <option value="not-starting">Not Starting / Dead</option>
+                    <option value="display">Display / Control Issue</option>
+                    <option value="odour">Bad Smell / Odour</option>
+                    <option value="other">Other / Unsure</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-field" data-field="issueDescription">
+              <label class="form-label" for="issueDescription">
+                Describe the Problem
+                <span class="label-hint">The more detail, the better prepared our technician will be</span>
+              </label>
+              <div class="input-wrap">
+                <textarea
+                  id="issueDescription"
+                  name="issueDescription"
+                  class="form-textarea"
+                  rows="4"
+                  placeholder="When did it start? What changed? Any unusual sounds, smells or error codes you've noticed?"
+                  maxlength="1000"
+                  data-firebase-field="description"
+                ></textarea>
+                <span class="char-counter" id="descCounter">0/1000</span>
+              </div>
+            </div>
+
+            <!-- Photo Upload -->
+            <div class="form-field" data-field="photo">
+              <label class="form-label" for="photoUpload">
+                Upload a Photo
+                <span class="label-hint optional-tag">Optional — helps our tech prepare</span>
+              </label>
+              <div class="photo-upload-zone" id="photoUploadZone" tabindex="0" role="button" aria-label="Click or drag to upload a photo">
+                <div class="upload-idle-state" id="uploadIdleState">
+                  <div class="upload-icon-ring" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21,15 16,10 5,21"/></svg>
+                  </div>
+                  <p><strong>Drag &amp; drop</strong> or <span class="upload-link">click to choose</span></p>
+                  <p class="upload-hint">JPG, PNG, HEIC · Max 10 MB · Shows your appliance or the issue</p>
+                </div>
+                <div class="upload-preview-state hidden" id="uploadPreviewState">
+                  <img class="upload-thumb" id="uploadThumb" src="" alt="Uploaded appliance photo" />
+                  <div class="upload-file-info">
+                    <span class="upload-file-name" id="uploadFileName"></span>
+                    <span class="upload-file-size" id="uploadFileSize"></span>
+                  </div>
+                  <button type="button" class="upload-remove-btn" id="uploadRemoveBtn" aria-label="Remove uploaded photo">✕ Remove</button>
+                </div>
+                <input
+                  type="file"
+                  id="photoUpload"
+                  name="photoUpload"
+                  class="upload-input"
+                  accept="image/jpeg,image/png,image/heic,image/webp"
+                  aria-describedby="uploadHint"
+                  data-firebase-field="photoUrl"
+                />
+              </div>
+            </div>
+
+          </fieldset>
+
+          <!-- ── Step 3: Scheduling ── -->
+          <fieldset class="form-fieldset" id="formStep3">
+            <legend class="form-legend">
+              <span class="legend-num">03</span>
+              Schedule &amp; Preferences
+            </legend>
+
+            <div class="form-row-2">
+              <div class="form-field" data-field="preferredDate">
+                <label class="form-label" for="preferredDate">
+                  Preferred Date <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+                  <input
+                    type="date"
+                    id="preferredDate"
+                    name="preferredDate"
+                    class="form-input"
+                    required
+                    data-firebase-field="preferredDate"
+                  />
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field" data-field="preferredTime">
+                <label class="form-label" for="preferredTime">
+                  Preferred Time Slot <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <div class="input-wrap">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+                  <select id="preferredTime" name="preferredTime" class="form-select" required data-firebase-field="preferredSlot">
+                    <option value="">Choose a time slot</option>
+                    <option value="morning">9:00 AM – 11:00 AM</option>
+                    <option value="midday">11:00 AM – 1:00 PM</option>
+                    <option value="afternoon">2:00 PM – 4:00 PM</option>
+                    <option value="evening">4:00 PM – 6:00 PM</option>
+                    <option value="emergency">🚨 Emergency / ASAP (+₹149)</option>
+                  </select>
+                </div>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <!-- Slot availability visual -->
+            <div class="slot-availability" aria-label="Slot availability for tomorrow" role="group">
+              <span class="slot-avail-label">Tomorrow's availability:</span>
+              <div class="slot-chips">
+                <span class="slot-chip slot-chip--full" aria-label="9 AM to 11 AM slot full">9–11 AM Full</span>
+                <span class="slot-chip slot-chip--open" aria-label="11 AM to 1 PM slot available">11–1 PM ✓</span>
+                <span class="slot-chip slot-chip--few" aria-label="2 PM to 4 PM only 2 slots left">2–4 PM (2 left)</span>
+                <span class="slot-chip slot-chip--open" aria-label="4 PM to 6 PM slot available">4–6 PM ✓</span>
+              </div>
+            </div>
+
+            <!-- Coupon field -->
+            <div class="form-row-2">
+              <div class="form-field" data-field="couponCode">
+                <label class="form-label" for="couponCode">Coupon Code</label>
+                <div class="input-wrap input-wrap--with-action">
+                  <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                  <input
+                    type="text"
+                    id="couponCode"
+                    name="couponCode"
+                    class="form-input"
+                    placeholder="e.g. FESTIVAL30"
+                    data-firebase-field="coupon"
+                  />
+                  <button type="button" class="input-action-btn" id="applyCouponBtn">Apply</button>
+                </div>
+                <span class="coupon-feedback" id="couponFeedback"></span>
+              </div>
+              <div class="form-field" data-field="extraNotes">
+                <label class="form-label" for="extraNotes">Special Instructions</label>
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    id="extraNotes"
+                    name="extraNotes"
+                    class="form-input"
+                    placeholder="e.g. call before arriving"
+                    data-firebase-field="notes"
+                  />
+                </div>
+              </div>
+            </div>
+
+          </fieldset>
+
+          <!-- Hidden Firebase fields -->
+          <input type="hidden" name="bookingStatus" value="pending" data-firebase-field="status" />
+          <input type="hidden" name="bookingTimestamp" id="bookingTimestamp" data-firebase-field="createdAt" />
+          <input type="hidden" name="userId" id="bookingUserId" data-firebase-field="userId" />
+
+          <!-- Form Submit -->
+          <div class="form-submit-area">
+            <div class="form-summary" id="formSummary" aria-live="polite"></div>
+            <button type="submit" class="btn-submit" id="submitBookingBtn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
+              <span class="btn-submit-text">Confirm Booking Request</span>
+              <span class="btn-submit-loading hidden" aria-hidden="true">
+                <span class="spinner"></span> Processing…
+              </span>
+            </button>
+            <p class="form-legal">
+              By submitting you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+              Your data is encrypted and never shared with third parties.
+            </p>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="booking-sidebar" aria-label="Booking information">
+
+        <div class="sidebar-card glass-panel" data-reveal="fade-left">
+          <h3 class="sidebar-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+            What Happens Next
+          </h3>
+          <ol class="next-steps-list" role="list">
+            <li class="ns-step">
+              <div class="ns-num" aria-hidden="true">1</div>
+              <div class="ns-content">
+                <strong>Booking Confirmed</strong>
+                <p>SMS confirmation within 30 minutes of submission.</p>
+              </div>
+            </li>
+            <li class="ns-step">
+              <div class="ns-num" aria-hidden="true">2</div>
+              <div class="ns-content">
+                <strong>Technician Matched</strong>
+                <p>Best available certified technician assigned to your job.</p>
+              </div>
+            </li>
+            <li class="ns-step">
+              <div class="ns-num" aria-hidden="true">3</div>
+              <div class="ns-content">
+                <strong>On-Site Visit</strong>
+                <p>Technician arrives at your scheduled slot with all tools.</p>
+              </div>
+            </li>
+            <li class="ns-step">
+              <div class="ns-num" aria-hidden="true">4</div>
+              <div class="ns-content">
+                <strong>Repaired &amp; Guaranteed</strong>
+                <p>Job complete. Invoice shared. 90-day warranty active.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="sidebar-card glass-panel" data-reveal="fade-left" data-delay="100">
+          <h3 class="sidebar-card-title">Popular This Week</h3>
+          <ul class="popular-services-list">
+            <li>
+              <span class="ps-rank">1</span>
+              <span class="ps-name">AC Deep Cleaning</span>
+              <span class="ps-price">₹499</span>
+            </li>
+            <li>
+              <span class="ps-rank">2</span>
+              <span class="ps-name">Fridge Gas Refill</span>
+              <span class="ps-price">₹699</span>
+            </li>
+            <li>
+              <span class="ps-rank">3</span>
+              <span class="ps-name">Washer Drum Fix</span>
+              <span class="ps-price">₹849</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar-trust-badges" data-reveal="fade-left" data-delay="200">
+          <div class="stb-item">🔒 SSL Encrypted</div>
+          <div class="stb-item">✅ Verified Techs</div>
+          <div class="stb-item">💯 Satisfaction Guarantee</div>
+          <div class="stb-item">🏠 At-Home Service</div>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 7 — WELCOME BACK / ACCOUNT
+════════════════════════════════════════════════════ -->
+<section class="site-section account-section" id="account" aria-labelledby="accountHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">My Account</span>
+      <h2 class="section-title" id="accountHeading">Welcome <span class="text-gradient">Back</span></h2>
+      <p class="section-subtitle">Sign in to view your bookings, track ongoing repairs, access your warranty records, and manage your account preferences.</p>
+    </header>
+
+    <div class="account-wrapper" data-reveal="fade-up">
+
+      <!-- Tab switcher -->
+      <div class="account-tab-switcher" role="tablist" aria-label="Account options">
+        <button
+          class="acct-tab active"
+          id="tabWelcome"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panelWelcome"
+          onclick="switchAccountPanel('welcome')"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Welcome Back
+        </button>
+        <button
+          class="acct-tab"
+          id="tabFind"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panelFind"
+          onclick="switchAccountPanel('find')"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Find My Account
+        </button>
+      </div>
+
+      <!-- Welcome Back Panel -->
+      <div
+        class="account-panel active glass-panel"
+        id="panelWelcome"
+        role="tabpanel"
+        aria-labelledby="tabWelcome"
+        data-firebase-panel="signin"
+      >
+        <div class="acct-panel-header">
+          <div class="acct-avatar-placeholder" aria-hidden="true">👋</div>
+          <h3>Welcome Back!</h3>
+          <p>Sign in with your phone number to access your dashboard, active bookings and service history.</p>
+        </div>
+        <form class="acct-form" id="signinForm" novalidate data-firebase-action="phone-signin">
+          <div class="form-field">
+            <label class="form-label" for="signinPhone">Phone Number</label>
+            <div class="input-wrap">
+              <span class="input-prefix">+91</span>
+              <input
+                type="tel"
+                id="signinPhone"
+                name="signinPhone"
+                class="form-input form-input--prefix"
+                placeholder="98765 43210"
+                maxlength="10"
+                inputmode="numeric"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+          <!-- OTP row (shown after phone submit) -->
+          <div class="otp-section hidden" id="otpSection" aria-live="polite">
+            <label class="form-label" for="otp1">
+              Enter 6-digit OTP sent to your phone
+            </label>
+            <div class="otp-input-row" role="group" aria-label="OTP input, 6 digits">
+              <input class="otp-digit" id="otp1" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 1" autocomplete="one-time-code" />
+              <input class="otp-digit" id="otp2" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 2" />
+              <input class="otp-digit" id="otp3" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 3" />
+              <input class="otp-digit" id="otp4" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 4" />
+              <input class="otp-digit" id="otp5" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 5" />
+              <input class="otp-digit" id="otp6" type="text" inputmode="numeric" maxlength="1" aria-label="OTP digit 6" />
+            </div>
+            <div class="otp-resend-row">
+              <span class="otp-timer" id="otpTimer">Resend in 30s</span>
+              <button type="button" class="otp-resend-btn hidden" id="otpResendBtn">Resend OTP</button>
+            </div>
+          </div>
+          <button type="button" class="btn-neon-full-w" id="sendOtpBtn" data-firebase-action="send-otp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+            Send OTP
+          </button>
+          <div class="acct-divider"><span>or continue with</span></div>
+          <button type="button" class="btn-google-signin" id="googleSignInBtn" data-firebase-action="google-signin">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            Continue with Google
+          </button>
+          <p class="acct-demo-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Demo UI only. Firebase Auth integration ready for Phase 2.
+          </p>
+        </form>
+
+        <!-- Logged-in state preview (shown after sign-in) -->
+        <div class="acct-dashboard-preview hidden" id="acctDashboardPreview" data-firebase-panel="user-dashboard">
+          <div class="adp-header">
+            <div class="adp-user-info">
+              <div class="adp-avatar" id="adpAvatar">RS</div>
+              <div>
+                <strong id="adpName">Rahul Sharma</strong>
+                <span id="adpPhone">+91 98765 43210</span>
+              </div>
+            </div>
+            <button class="btn-ghost-sm" id="signoutBtn" data-firebase-action="signout">Sign Out</button>
+          </div>
+          <div class="adp-stats-row">
+            <div class="adp-stat">
+              <span class="adp-stat-num" id="adpBookings">3</span>
+              <span class="adp-stat-lbl">Bookings</span>
+            </div>
+            <div class="adp-stat">
+              <span class="adp-stat-num">1</span>
+              <span class="adp-stat-lbl">Active</span>
+            </div>
+            <div class="adp-stat">
+              <span class="adp-stat-num">4.9★</span>
+              <span class="adp-stat-lbl">Avg Rating</span>
+            </div>
+          </div>
+          <a href="#track" class="btn-outline-full">View Active Booking →</a>
+        </div>
+      </div>
+
+      <!-- Find Account Panel -->
+      <div
+        class="account-panel glass-panel"
+        id="panelFind"
+        role="tabpanel"
+        aria-labelledby="tabFind"
+        data-firebase-panel="find-account"
+      >
+        <div class="acct-panel-header">
+          <div class="acct-avatar-placeholder" aria-hidden="true">🔍</div>
+          <h3>Find My Account</h3>
+          <p>Enter your registered phone number or booking ID to locate your account and access your complete service history.</p>
+        </div>
+        <form class="acct-form" id="findAccountForm" novalidate data-firebase-action="find-account">
+          <div class="form-field">
+            <label class="form-label" for="findInput">Phone Number or Booking ID</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input
+                type="text"
+                id="findInput"
+                name="findInput"
+                class="form-input"
+                placeholder="+91 98765 43210 or CC-2024-XXXX"
+              />
+            </div>
+          </div>
+          <button type="button" class="btn-neon-full-w" id="findAccountBtn">
+            Search Account
+          </button>
+          <!-- Mock result -->
+          <div class="find-result-card glass-panel hidden" id="findResultCard" aria-live="polite">
+            <div class="frc-inner">
+              <div class="frc-avatar">RS</div>
+              <div class="frc-details">
+                <strong>Rahul Sharma</strong>
+                <span>+91 98765 43210 · Mumbai</span>
+                <span class="frc-meta">3 bookings · Last repair: AC Service ✓</span>
+              </div>
+            </div>
+            <button type="button" class="btn-neon-sm-full" onclick="switchAccountPanel('welcome')">
+              Sign In to This Account
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 8 — SERVICE TRACKING PREVIEW
+════════════════════════════════════════════════════ -->
+<section class="site-section tracking-section" id="track" aria-labelledby="trackingHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Live Tracking</span>
+      <h2 class="section-title" id="trackingHeading">Your Repair, <span class="text-gradient">Tracked Live</span></h2>
+      <p class="section-subtitle">Real-time visibility from the moment you book to the second your appliance is fixed. Know exactly what's happening, always.</p>
+    </header>
+
+    <div class="tracking-wrapper" data-reveal="fade-up">
+
+      <!-- Active booking card -->
+      <div class="active-booking-card glass-panel" id="activeBookingCard">
+        <div class="abc-left">
+          <div class="abc-id-row">
+            <span class="abc-label">Booking ID</span>
+            <span class="abc-id">#CC-2024-4892</span>
+            <span class="abc-status-chip status-chip--live">
+              <span class="live-chip-dot" aria-hidden="true"></span>
+              In Progress
+            </span>
+          </div>
+          <div class="abc-details-row">
+            <span class="abc-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              AC Repair · Split 1.5T
+            </span>
+            <span class="abc-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              Ankit Joshi · ⭐ 4.9
+            </span>
+            <span class="abc-detail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              Today · 2:00–4:00 PM
+            </span>
+          </div>
+        </div>
+        <div class="abc-right">
+          <div class="tech-card">
+            <div class="tech-avatar" aria-label="Technician Ankit Joshi">AJ</div>
+            <div class="tech-info">
+              <strong>Ankit Joshi</strong>
+              <span>AC Specialist</span>
+              <a href="tel:+919876543210" class="tech-call-btn">Call Tech</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="repair-timeline" role="list" aria-label="Repair status timeline">
+
+        <div class="tl-item tl-item--done" role="listitem">
+          <div class="tl-marker-col" aria-hidden="true">
+            <div class="tl-marker tl-marker--done">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20,6 9,17 4,12"/></svg>
+            </div>
+            <div class="tl-connector tl-connector--done"></div>
+          </div>
+          <div class="tl-content-col">
+            <div class="tl-content">
+              <div class="tl-top-row">
+                <h4 class="tl-step-title">Booking Received</h4>
+                <span class="tl-timestamp">Today · 10:30 AM</span>
+              </div>
+              <p class="tl-step-desc">Your service request has been confirmed and logged in our system. A booking confirmation was sent via SMS.</p>
+              <div class="tl-meta-pill tl-meta--done">Confirmed ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item--done" role="listitem">
+          <div class="tl-marker-col" aria-hidden="true">
+            <div class="tl-marker tl-marker--done">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20,6 9,17 4,12"/></svg>
+            </div>
+            <div class="tl-connector tl-connector--done"></div>
+          </div>
+          <div class="tl-content-col">
+            <div class="tl-content">
+              <div class="tl-top-row">
+                <h4 class="tl-step-title">Technician Assigned</h4>
+                <span class="tl-timestamp">Today · 11:15 AM</span>
+              </div>
+              <p class="tl-step-desc">Ankit Joshi (Certified AC Specialist, ⭐ 4.9 rated, 420+ repairs) has been matched and assigned to your booking.</p>
+              <div class="tl-meta-pill tl-meta--done">Ankit Joshi ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item--done" role="listitem">
+          <div class="tl-marker-col" aria-hidden="true">
+            <div class="tl-marker tl-marker--done">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="14" height="14"><polyline points="20,6 9,17 4,12"/></svg>
+            </div>
+            <div class="tl-connector tl-connector--active"></div>
+          </div>
+          <div class="tl-content-col">
+            <div class="tl-content">
+              <div class="tl-top-row">
+                <h4 class="tl-step-title">Technician On The Way</h4>
+                <span class="tl-timestamp">Today · 1:48 PM</span>
+              </div>
+              <p class="tl-step-desc">Ankit is en route to your location. He departed with all required tools and spare parts for your AC model.</p>
+              <div class="tl-meta-pill tl-meta--done">Arrived ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item--active" role="listitem" aria-current="step">
+          <div class="tl-marker-col" aria-hidden="true">
+            <div class="tl-marker tl-marker--active">
+              <div class="tl-pulse-ring"></div>
+              <div class="tl-pulse-core"></div>
+            </div>
+            <div class="tl-connector tl-connector--pending"></div>
+          </div>
+          <div class="tl-content-col">
+            <div class="tl-content tl-content--active">
+              <div class="tl-top-row">
+                <h4 class="tl-step-title">
+                  Service In Progress
+                  <span class="tl-live-badge" aria-label="Currently active">LIVE</span>
+                </h4>
+                <span class="tl-timestamp">Today · 2:10 PM — Now</span>
+              </div>
+              <p class="tl-step-desc">Ankit is currently diagnosing and repairing your appliance on-site. He will update you before beginning any part replacements.</p>
+              <div class="tl-progress-bar" role="progressbar" aria-label="Service progress" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="tl-progress-fill" style="width: 65%"></div>
+              </div>
+              <div class="tl-meta-pill tl-meta--live">In Progress · Est. 80 min remaining</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item tl-item--pending" role="listitem">
+          <div class="tl-marker-col" aria-hidden="true">
+            <div class="tl-marker tl-marker--pending"></div>
+          </div>
+          <div class="tl-content-col">
+            <div class="tl-content tl-content--pending">
+              <div class="tl-top-row">
+                <h4 class="tl-step-title">Service Completed</h4>
+                <span class="tl-timestamp">Est. Today · 3:30 PM</span>
+              </div>
+              <p class="tl-step-desc">Your appliance will be fully repaired, tested, and verified before sign-off. Invoice shared, 90-day warranty certificate issued.</p>
+              <div class="tl-meta-pill tl-meta--pending">Awaiting completion</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tracking CTA -->
+      <div class="tracking-cta-row">
+        <a href="#book" class="btn-outline-sm">Track Another Booking</a>
+        <a href="#account" class="btn-neon-sm">View All Bookings</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 9 — BEFORE & AFTER GALLERY
+════════════════════════════════════════════════════ -->
+<section class="site-section gallery-section" id="gallery" aria-labelledby="galleryHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Before &amp; After</span>
+      <h2 class="section-title" id="galleryHeading">See the <span class="text-gradient">Transformation</span></h2>
+      <p class="section-subtitle">Every repair is a complete restoration. Drag the slider on each card to reveal our work in real time.</p>
+    </header>
+
+    <div class="gallery-grid">
+
+      <!-- Gallery Card 1 — AC -->
+      <article class="gallery-card" data-reveal="fade-up" data-delay="0" aria-label="AC Unit before and after cleaning">
+        <div class="gallery-compare-container" id="galCompare1">
+          <div class="gallery-before-panel gallery-panel--ac-before" role="img" aria-label="Before: Dirty AC unit with clogged filters">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--faded" aria-hidden="true">❄️</div>
+              <div class="gallery-condition-marks" aria-hidden="true">
+                <span class="gcm gcm-1"></span>
+                <span class="gcm gcm-2"></span>
+                <span class="gcm gcm-3"></span>
+                <span class="gcm gcm-4"></span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--before">BEFORE</span>
+              <span class="gallery-state-desc">Clogged · Not Cooling</span>
+            </div>
+          </div>
+          <div class="gallery-after-panel gallery-panel--ac-after" role="img" aria-label="After: Clean AC unit cooling perfectly">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--glowing" aria-hidden="true">❄️</div>
+              <div class="gallery-sparkles" aria-hidden="true">
+                <span class="gs gs-1">✦</span>
+                <span class="gs gs-2">✦</span>
+                <span class="gs gs-3">✦</span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--after">AFTER</span>
+              <span class="gallery-state-desc">Spotless · Cooling ✓</span>
+            </div>
+          </div>
+          <div class="gallery-slider-divider" aria-hidden="true">
+            <div class="gsd-line"></div>
+            <div class="gsd-handle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="15,18 9,12 15,6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="9,18 15,12 9,6"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card-info">
+          <h3>AC Unit Deep Clean &amp; Gas Top-Up</h3>
+          <p>Clogged evaporator coils cleared, refrigerant refilled to factory spec, airflow improved by 40%, energy bill reduced by 15%.</p>
+          <div class="gallery-tags">
+            <span class="gtag gtag--purple">AC Repair</span>
+            <span class="gtag">Gas Top-Up</span>
+            <span class="gtag">Deep Clean</span>
+          </div>
+          <div class="gallery-result-strip">
+            <span>⏱ 2.5 hrs</span>
+            <span>⭐ 5.0 rated</span>
+            <span>🛡️ 90-day warranty</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Gallery Card 2 — Refrigerator -->
+      <article class="gallery-card" data-reveal="fade-up" data-delay="150" aria-label="Refrigerator before and after compressor replacement">
+        <div class="gallery-compare-container" id="galCompare2">
+          <div class="gallery-before-panel gallery-panel--fridge-before" role="img" aria-label="Before: Refrigerator with frost build-up">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--faded" aria-hidden="true">🧊</div>
+              <div class="gallery-condition-marks" aria-hidden="true">
+                <span class="gcm gcm-2"></span>
+                <span class="gcm gcm-5"></span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--before">BEFORE</span>
+              <span class="gallery-state-desc">Frost Build-up · Leaking</span>
+            </div>
+          </div>
+          <div class="gallery-after-panel gallery-panel--fridge-after" role="img" aria-label="After: Refrigerator cooling perfectly with new compressor">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--glowing" aria-hidden="true">🧊</div>
+              <div class="gallery-sparkles" aria-hidden="true">
+                <span class="gs gs-1">✦</span>
+                <span class="gs gs-2">✦</span>
+                <span class="gs gs-3">✦</span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--after">AFTER</span>
+              <span class="gallery-state-desc">Frost-Free · Cooling ✓</span>
+            </div>
+          </div>
+          <div class="gallery-slider-divider" aria-hidden="true">
+            <div class="gsd-line"></div>
+            <div class="gsd-handle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="15,18 9,12 15,6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="9,18 15,12 9,6"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card-info">
+          <h3>Refrigerator Compressor Replacement</h3>
+          <p>Faulty compressor swapped with OEM part, defrost heater fixed, complete cooling system tested. Factory-spec temperatures restored in 3 hours.</p>
+          <div class="gallery-tags">
+            <span class="gtag gtag--blue">Refrigerator</span>
+            <span class="gtag">Compressor</span>
+            <span class="gtag">Defrost Fix</span>
+          </div>
+          <div class="gallery-result-strip">
+            <span>⏱ 3 hrs</span>
+            <span>⭐ 5.0 rated</span>
+            <span>🛡️ 90-day warranty</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Gallery Card 3 — Washing Machine -->
+      <article class="gallery-card" data-reveal="fade-up" data-delay="300" aria-label="Washing machine before and after drum repair">
+        <div class="gallery-compare-container" id="galCompare3">
+          <div class="gallery-before-panel gallery-panel--washer-before" role="img" aria-label="Before: Washing machine with broken drum bearing making loud noise">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--faded" aria-hidden="true">⚙️</div>
+              <div class="gallery-condition-marks" aria-hidden="true">
+                <span class="gcm gcm-3"></span>
+                <span class="gcm gcm-4"></span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--before">BEFORE</span>
+              <span class="gallery-state-desc">Grinding Noise · Not Spinning</span>
+            </div>
+          </div>
+          <div class="gallery-after-panel gallery-panel--washer-after" role="img" aria-label="After: Washing machine running quietly and spinning correctly">
+            <div class="gallery-panel-content">
+              <div class="gallery-appliance-icon gallery-icon--glowing" aria-hidden="true">⚙️</div>
+              <div class="gallery-sparkles" aria-hidden="true">
+                <span class="gs gs-1">✦</span>
+                <span class="gs gs-2">✦</span>
+                <span class="gs gs-3">✦</span>
+              </div>
+            </div>
+            <div class="gallery-panel-overlay">
+              <span class="gallery-state-label gallery-state--after">AFTER</span>
+              <span class="gallery-state-desc">Silent · Full Spin ✓</span>
+            </div>
+          </div>
+          <div class="gallery-slider-divider" aria-hidden="true">
+            <div class="gsd-line"></div>
+            <div class="gsd-handle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="15,18 9,12 15,6"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16"><polyline points="9,18 15,12 9,6"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-card-info">
+          <h3>Washing Machine Drum Bearing &amp; Belt</h3>
+          <p>Worn drum bearing and drive belt replaced with genuine parts. Silent, smooth, high-speed spin cycle fully restored. Zero vibration.</p>
+          <div class="gallery-tags">
+            <span class="gtag gtag--purple">Washing Machine</span>
+            <span class="gtag">Drum Bearing</span>
+            <span class="gtag">Belt Fix</span>
+          </div>
+          <div class="gallery-result-strip">
+            <span>⏱ 2 hrs</span>
+            <span>⭐ 4.9 rated</span>
+            <span>🛡️ 90-day warranty</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 10 — CUSTOMER REVIEWS
+════════════════════════════════════════════════════ -->
+<section class="site-section reviews-section" id="reviews" aria-labelledby="reviewsHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Customer Reviews</span>
+      <h2 class="section-title" id="reviewsHeading">What People <span class="text-gradient">Are Saying</span></h2>
+      <p class="section-subtitle">Real reviews from verified customers across Mumbai and Pune. Unfiltered, unedited.</p>
+    </header>
+
+    <!-- Review summary strip -->
+    <div class="reviews-summary-strip" data-reveal="fade-up">
+      <div class="rss-rating">
+        <span class="rss-big-num">4.9</span>
+        <div class="rss-stars" aria-label="4.9 out of 5 stars">★★★★★</div>
+        <span class="rss-count">Based on 2,400+ reviews</span>
+      </div>
+      <div class="rss-breakdown">
+        <div class="rss-bar-row"><span>5★</span><div class="rss-bar"><div class="rss-bar-fill" style="width:87%"></div></div><span>87%</span></div>
+        <div class="rss-bar-row"><span>4★</span><div class="rss-bar"><div class="rss-bar-fill rss-bar--4" style="width:10%"></div></div><span>10%</span></div>
+        <div class="rss-bar-row"><span>3★</span><div class="rss-bar"><div class="rss-bar-fill rss-bar--3" style="width:2%"></div></div><span>2%</span></div>
+        <div class="rss-bar-row"><span>1–2★</span><div class="rss-bar"><div class="rss-bar-fill rss-bar--1" style="width:1%"></div></div><span>1%</span></div>
+      </div>
+      <div class="rss-platforms">
+        <span class="rss-platform">Google · 4.9★</span>
+        <span class="rss-platform">Facebook · 4.8★</span>
+        <span class="rss-platform">Justdial · 4.9★</span>
+      </div>
+    </div>
+
+    <!-- Reviews carousel -->
+    <div class="reviews-carousel-wrapper" data-reveal="fade-up">
+      <div class="reviews-carousel" id="reviewsCarousel" role="list">
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar">PS</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Priya Sharma</strong>
+              <div class="reviewer-stars" aria-label="5 stars">★★★★★</div>
+            </div>
+            <span class="review-service-tag">AC Repair</span>
+          </div>
+          <blockquote class="review-text">
+            "Technician arrived within 90 minutes of booking. Fixed my AC in under an hour — gas refill and coil clean. It's cooling better than it ever has. Will always use CoolComfort."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">2 weeks ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar reviewer-avatar--blue">RM</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Rahul Mehta</strong>
+              <div class="reviewer-stars" aria-label="5 stars">★★★★★</div>
+            </div>
+            <span class="review-service-tag review-service-tag--blue">Fridge Repair</span>
+          </div>
+          <blockquote class="review-text">
+            "My fridge stopped cooling overnight. CoolComfort came the same morning, diagnosed a failed compressor, and had it fixed by evening. Transparent pricing, no hidden fees."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">1 month ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar">AI</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Ananya Iyer</strong>
+              <div class="reviewer-stars" aria-label="4 stars">★★★★<span class="star-empty">★</span></div>
+            </div>
+            <span class="review-service-tag">Washer Repair</span>
+          </div>
+          <blockquote class="review-text">
+            "Loud grinding noise turned out to be a worn drum bearing. Tech brought the part himself and fixed it on-site. Very professional. Knocked a star only for the day-long confirmation wait."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">3 weeks ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar reviewer-avatar--blue">SN</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Siddharth Nair</strong>
+              <div class="reviewer-stars" aria-label="5 stars">★★★★★</div>
+            </div>
+            <span class="review-service-tag review-service-tag--blue">Microwave</span>
+          </div>
+          <blockquote class="review-text">
+            "Thought I'd have to buy a new microwave. Turned out to be just the magnetron. Fixed for a fraction of replacement cost. CoolComfort saved me ₹8,000 today. Excellent honest service."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">2 months ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar">KR</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Kavya Reddy</strong>
+              <div class="reviewer-stars" aria-label="5 stars">★★★★★</div>
+            </div>
+            <span class="review-service-tag">Water Cooler</span>
+          </div>
+          <blockquote class="review-text">
+            "Our office cooler wasn't dispensing cold water. Tech diagnosed a faulty thermostat in 10 minutes, replaced it same visit. Cold water back by lunch. Perfect and very quick."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">5 weeks ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+        <article class="review-card" role="listitem">
+          <div class="review-card-header">
+            <div class="reviewer-avatar reviewer-avatar--blue">AD</div>
+            <div class="reviewer-meta">
+              <strong class="reviewer-name">Arjun Desai</strong>
+              <div class="reviewer-stars" aria-label="5 stars">★★★★★</div>
+            </div>
+            <span class="review-service-tag review-service-tag--blue">AC Annual Service</span>
+          </div>
+          <blockquote class="review-text">
+            "Booked the Summer AC Package — phenomenal value. Thorough servicing, gas top-up, detailed explanation of everything done. My electricity bill actually dropped the next month."
+          </blockquote>
+          <div class="review-card-footer">
+            <span class="review-date">1 month ago</span>
+            <span class="review-verified">✓ Verified Customer</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Carousel navigation -->
+      <div class="carousel-nav" role="group" aria-label="Review carousel navigation">
+        <button class="carousel-nav-btn" id="revPrev" aria-label="Previous reviews">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="15,18 9,12 15,6"/></svg>
+        </button>
+        <div class="carousel-dots" id="reviewDots" role="tablist" aria-label="Review pages"></div>
+        <button class="carousel-nav-btn" id="revNext" aria-label="Next reviews">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="9,18 15,12 9,6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="reviews-cta-row" data-reveal="fade-up">
+      <a href="#book" class="btn-neon-sm">Join 10,000+ Happy Customers</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 11 — FAQ
+════════════════════════════════════════════════════ -->
+<section class="site-section faq-section" id="faq" aria-labelledby="faqHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">FAQ</span>
+      <h2 class="section-title" id="faqHeading">Questions <span class="text-gradient">Answered</span></h2>
+      <p class="section-subtitle">Everything you need to know before booking. Can't find your answer? Chat with us on WhatsApp.</p>
+    </header>
+
+    <div class="faq-layout">
+      <div class="faq-accordion" id="faqAccordion" role="list">
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="0">
+          <button class="faq-question" aria-expanded="false" id="faqQ1" aria-controls="faqA1">
+            <span>How quickly will a technician reach me after I book?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA1" role="region" aria-labelledby="faqQ1">
+            <div class="faq-answer-inner">
+              In most cases a technician is dispatched within 2 hours of a confirmed booking during normal hours (8 AM – 8 PM). For emergency requests, we offer priority slots that can have a qualified engineer at your door within 60–90 minutes, subject to technician availability in your pin code area.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="60">
+          <button class="faq-question" aria-expanded="false" id="faqQ2" aria-controls="faqA2">
+            <span>What does the 90-day service warranty cover?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA2" role="region" aria-labelledby="faqQ2">
+            <div class="faq-answer-inner">
+              All replacement parts and labour performed during your service visit are covered for 90 days from the date of repair. If the same problem recurs within this period, we will re-attend and resolve it at zero additional cost. The warranty is automatically registered against your phone number at the time of service.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="120">
+          <button class="faq-question" aria-expanded="false" id="faqQ3" aria-controls="faqA3">
+            <span>Do you provide a quote before starting the repair?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA3" role="region" aria-labelledby="faqQ3">
+            <div class="faq-answer-inner">
+              Always. Our technician first performs a diagnostic (free for most service types), then presents a full itemised quote covering parts and labour before touching anything. You are never charged more than the agreed amount. If you choose not to proceed after the diagnostic, you only pay the small visit fee.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="180">
+          <button class="faq-question" aria-expanded="false" id="faqQ4" aria-controls="faqA4">
+            <span>Do your technicians carry spare parts on arrival?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA4" role="region" aria-labelledby="faqQ4">
+            <div class="faq-answer-inner">
+              Our engineers carry a comprehensive stock of the most commonly needed parts for popular appliance brands. For less common or brand-specific OEM components, we typically source and return within 24–48 hours at no extra visit charge. When you upload a photo at booking time, we pre-identify likely parts and load the van accordingly.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="240">
+          <button class="faq-question" aria-expanded="false" id="faqQ5" aria-controls="faqA5">
+            <span>Which appliance brands do you service?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA5" role="region" aria-labelledby="faqQ5">
+            <div class="faq-answer-inner">
+              We service all major brands including Samsung, LG, Whirlpool, Godrej, Haier, Voltas, Daikin, Carrier, Blue Star, Hitachi, IFB, Bosch, Siemens, Lloyd, and many more. If you are unsure whether your specific model is covered, message us on WhatsApp with the model number and we will confirm within minutes.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="300">
+          <button class="faq-question" aria-expanded="false" id="faqQ6" aria-controls="faqA6">
+            <span>Can I reschedule or cancel my booking?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA6" role="region" aria-labelledby="faqQ6">
+            <div class="faq-answer-inner">
+              Yes. You can reschedule your slot up to 2 hours before the confirmed appointment time at no charge. Cancellations made with at least 2 hours' notice incur no fee. Late cancellations (under 2 hours) may be subject to a small visit fee of ₹99 to partially cover the technician's travel costs.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="360">
+          <button class="faq-question" aria-expanded="false" id="faqQ7" aria-controls="faqA7">
+            <span>Are your technicians background-verified and insured?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA7" role="region" aria-labelledby="faqQ7">
+            <div class="faq-answer-inner">
+              Every technician on the CoolComfort network is background-checked (police verification), Aadhaar-verified, and holds a valid service certification for the appliance categories they work on. CoolComfort also carries comprehensive public liability insurance covering all on-site visits. You can view a technician's profile and rating before your appointment.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem" data-reveal="fade-up" data-delay="420">
+          <button class="faq-question" aria-expanded="false" id="faqQ8" aria-controls="faqA8">
+            <span>What payment methods do you accept?</span>
+            <span class="faq-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18"><polyline points="6,9 12,15 18,9"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faqA8" role="region" aria-labelledby="faqQ8">
+            <div class="faq-answer-inner">
+              We accept all major payment methods: UPI (PhonePe, GPay, Paytm), credit/debit cards, net banking, and cash. Payment is collected only after the service is completed and you are satisfied with the work. No advance payment is required at the time of booking.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FAQ sidebar CTA -->
+      <div class="faq-sidebar" data-reveal="fade-left">
+        <div class="faq-sidebar-card glass-panel">
+          <div class="fsc-icon" aria-hidden="true">💬</div>
+          <h3>Still have questions?</h3>
+          <p>Our support team is available 7 days a week, 8 AM to 8 PM. Get an answer in under 5 minutes.</p>
+          <a href="https://wa.me/919876543210" target="_blank" class="btn-whatsapp-cta">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.301A9.963 9.963 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a href="tel:+919876543210" class="btn-call-cta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a2 2 0 012-2.18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.91 9.91a16 16 0 006 6z"/></svg>
+            Call +91 98765 43210
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════
+     SECTION 12 — CONTACT
+════════════════════════════════════════════════════ -->
+<section class="site-section contact-section" id="contact" aria-labelledby="contactHeading">
+  <div class="section-container">
+
+    <header class="section-header" data-reveal="fade-up">
+      <span class="section-eyebrow">Get In Touch</span>
+      <h2 class="section-title" id="contactHeading">We're <span class="text-gradient">Always Here</span></h2>
+      <p class="section-subtitle">Reach out any time. We respond faster than most appliances break down.</p>
+    </header>
+
+    <div class="contact-layout">
+
+      <!-- Contact info grid -->
+      <div class="contact-info-grid" data-reveal="fade-up">
+        <div class="contact-info-card contact-card--purple">
+          <div class="cic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a2 2 0 012-2.18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.91 9.91a16 16 0 006 6z"/></svg>
+          </div>
+          <h4>Call Us</h4>
+          <p>+91 98765 43210</p>
+          <small>Monday – Sunday · 8 AM to 8 PM</small>
+          <a href="tel:+919876543210" class="cic-action">Call Now →</a>
+        </div>
+
+        <div class="contact-info-card contact-card--blue">
+          <div class="cic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h4>Email</h4>
+          <p>hello@coolcomfort.in</p>
+          <small>We respond within 2 business hours</small>
+          <a href="mailto:hello@coolcomfort.in" class="cic-action cic-action--blue">Send Email →</a>
+        </div>
+
+        <div class="contact-info-card contact-card--purple">
+          <div class="cic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.301A9.963 9.963 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+          </div>
+          <h4>WhatsApp</h4>
+          <p>+91 98765 43210</p>
+          <small>Instant support. Typically replies in &lt; 5 min</small>
+          <a href="https://wa.me/919876543210" target="_blank" class="cic-action">Chat Now →</a>
+        </div>
+
+        <div class="contact-info-card contact-card--blue">
+          <div class="cic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4>Service Areas</h4>
+          <p>Mumbai · Pune · Thane · Navi Mumbai</p>
+          <small>Expanding to Nashik &amp; Aurangabad soon</small>
+          <a href="#book" class="cic-action cic-action--blue">Check PIN Code →</a>
+        </div>
+      </div>
+
+      <!-- Contact form -->
+      <div class="contact-form-container glass-panel" data-reveal="fade-left">
+        <div class="contact-form-header">
+          <h3>Send Us a Message</h3>
+          <p>For general enquiries, partnership requests, or anything else — we'd love to hear from you.</p>
+        </div>
+        <form
+          class="contact-form"
+          id="contactForm"
+          novalidate
+          data-firebase-collection="contacts"
+        >
+          <div class="form-row-2">
+            <div class="form-field">
+              <label class="form-label" for="contactName">Your Name</label>
+              <input type="text" id="contactName" name="contactName" class="form-input" placeholder="Full name" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="contactPhone">Phone / Email</label>
+              <input type="text" id="contactPhone" name="contactPhone" class="form-input" placeholder="How should we reach you?" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="contactSubject">Subject</label>
+            <select id="contactSubject" name="contactSubject" class="form-select">
+              <option value="">Select a topic</option>
+              <option>Booking Enquiry</option>
+              <option>Existing Booking Issue</option>
+              <option>Warranty Claim</option>
+              <option>Business Partnership</option>
+              <option>Technician Application</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="contactMessage" class="form-textarea" rows="5" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="contactSubmitBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
